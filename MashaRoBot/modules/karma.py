@@ -4,7 +4,7 @@ from MashaRoBot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
 from MashaRoBot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
-__MODULE__ = "Karma"
+__mod_name__ = "Karma"
 __HELP__ = """[UPVOTE] - Use upvote keywords like "+", "+1", "thanks" etc to upvote a message.
 [DOWNVOTE] - Use downvote keywords like "-", "-1", etc to downvote a message.
 Reply to a message with /karma to check a user's karma
